@@ -11,11 +11,14 @@
     }
   },
   "mail": {
-		"from": "hello@wilde.guide",
-		"service": "Postmark",
-    "auth": {
-      "user": "14a221a5-5478-4ddb-8526-307442691be8",
-      "pass": "14a221a5-5478-4ddb-8526-307442691be8"
+    "from": "hello@wilde.guide",
+    "transport": "SMTP",
+		"options": {
+      "service": "Postmark",
+			"auth": {
+				"user": "14a221a5-5478-4ddb-8526-307442691be8",
+				"pass": "14a221a5-5478-4ddb-8526-307442691be8"
+      }
     }
   },
   "logging": {
