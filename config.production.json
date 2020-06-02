@@ -13,11 +13,9 @@
   "mail": {
 		"from": "hello@wilde.guide",
 		"service": "Postmark",
-		"options": {
-			"auth": {
-				"user": "14a221a5-5478-4ddb-8526-307442691be8",
-				"pass": "14a221a5-5478-4ddb-8526-307442691be8"
-      }
+    "auth": {
+      "user": "14a221a5-5478-4ddb-8526-307442691be8",
+      "pass": "14a221a5-5478-4ddb-8526-307442691be8"
     }
   },
   "logging": {
