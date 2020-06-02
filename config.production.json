@@ -24,6 +24,7 @@
     "host": "smtp.postmarkapp.com",
     "options": {
         "service": "Postmark",
+        "host": "smtp.postmarkapp.com",
         "port": 25,
         "secureConnection": true,
         "auth": {
