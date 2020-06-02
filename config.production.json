@@ -12,10 +12,8 @@
   },
   "mail": {
 		"from": "hello@wilde.guide",
-		"transport": "SMTP",
+		"service": "Postmark",
 		"options": {
-			"host": "smtp.postmarkapp.com",
-			"port": 2525,
 			"auth": {
 				"user": "14a221a5-5478-4ddb-8526-307442691be8",
 				"pass": "14a221a5-5478-4ddb-8526-307442691be8"
