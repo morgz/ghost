@@ -10,6 +10,9 @@
       "filename": "/var/lib/ghost/content/data/ghost.db"
     }
   },
+  "mail": {
+    "transport": "Direct"
+  },
   "logging": {
     "transports": [
       "stdout"
@@ -17,20 +20,5 @@
   },
   "paths": {
     "contentPath": "/var/lib/ghost/content"
-  },
-  "mail": {
-    "from": "hello@wilde.guide",
-    "transport": "SMTP",
-    "host": "smtp.postmarkapp.com",
-    "options": {
-        "service": "Postmark",
-        "host": "smtp.postmarkapp.com",
-        "port": 25,
-        "secureConnection": true,
-        "auth": {
-            "user": "14a221a5-5478-4ddb-8526-307442691be8",
-            "pass": "14a221a5-5478-4ddb-8526-307442691be8"
-        }
-    }
-}
+  }
 }
