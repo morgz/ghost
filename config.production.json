@@ -19,11 +19,11 @@
     "contentPath": "/var/lib/ghost/content"
   },
   "mail": {
+    "from": "hello@wilde.guide",
     "transport": "SMTP",
+    "host": "smtp.postmarkapp.com",
     "options": {
-        "from": "hello@wilde.guide",
         "service": "Postmark",
-        "host": "smtp.postmarkapp.com",
         "port": 25,
         "secureConnection": true,
         "auth": {
