@@ -21,6 +21,7 @@
   "mail": {
     "transport": "SMTP",
     "options": {
+        "from": "hello@wilde.guide",
         "service": "Postmark",
         "host": "smtp.postmarkapp.com",
         "port": 25,
