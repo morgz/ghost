@@ -13,7 +13,9 @@
   "mail": {
     "from": "hello@wilde.guide",
     "transport": "SMTP",
+    "port": "587",
 		"options": {
+      "port": "587",
       "service": "Postmark",
 			"auth": {
 				"user": "14a221a5-5478-4ddb-8526-307442691be8",
